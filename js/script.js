@@ -7,7 +7,7 @@ function toggleMenu() {
 
 
 function goToDetails(projectId, imagePath, projectTitle, projectDetails) {
-    window.location.href = `/pages/project-detail.html?project=${projectId}&image=${imagePath}&title=${projectTitle}&details=${projectDetails}`;
+    window.location.href = `/project-detail.html?project=${projectId}&image=${imagePath}&title=${projectTitle}&details=${projectDetails}`;
 }
 
 
